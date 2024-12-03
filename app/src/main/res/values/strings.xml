@@ -8,4 +8,9 @@
     <string name="water_amount_placeholder">500 ml</string>
     <string name="timestamp_placeholder">12:00 PM</string>
     <string name="water_entry">"%1$d ml"</string>
+    <string name="app_title">BitFit Water Tracker</string>
+    <string name="input_prompt">You need to input data for today!</string>
+    <string name="save_button">Save Entry</string>
+    <string name="average_consumption_text">Average consumption: 0 ml</string>
+    <string name="trend_text">Trend: Increasing</string>
 </resources>

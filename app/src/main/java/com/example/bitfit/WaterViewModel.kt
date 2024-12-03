@@ -1,4 +1,5 @@
 package com.example.bitfit
+
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData

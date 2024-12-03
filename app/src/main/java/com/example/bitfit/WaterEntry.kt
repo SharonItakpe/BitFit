@@ -1,4 +1,5 @@
 package com.example.bitfit
+
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 

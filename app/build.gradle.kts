@@ -1,11 +1,14 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id("kotlin-kapt")
+
+
 }
 
 android {
     namespace = "com.example.bitfit"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.bitfit"
@@ -33,6 +36,10 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+    buildFeatures {
+        viewBinding = true // Enabled View Binding
+    }
 }
 
 dependencies {
@@ -46,7 +53,7 @@ dependencies {
     // Room dependencies using version catalog
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
-    annotationProcessor(libs.androidx.room.compiler)
+    kapt(libs.androidx.room.compiler)
 
     // Lifecycle dependencies (via version catalog)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
@@ -57,4 +64,5 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 }
+
 
