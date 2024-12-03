@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BitFit</string>
+    <string name="title_water_tracker">Water Consumption Tracker</string>
+    <string name="add_water_entry">Add Water Entry</string>
+    <string name="enter_water_prompt">Enter water consumed (ml):</string>
+    <string name="water_input_hint">e.g., 500</string>
+    <string name="save_entry">Save Entry</string>
+    <string name="water_amount_placeholder">500 ml</string>
+    <string name="timestamp_placeholder">12:00 PM</string>
+    <string name="water_entry">"%1$d ml"</string>
+</resources>
