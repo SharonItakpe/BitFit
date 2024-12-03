@@ -31,6 +31,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+Bitfitgif.gif
 
 <img src='http://i.imgur.com/Bitfitgif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
