@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-
+[til]](https://github.com/SharonItakpe/BitFit/blob/main/Bitfitgif.gif)
 [Bitfitgif.gif](https://github.com/SharonItakpe/BitFit/blob/main/Bitfitgif.gif)
 
 <img src='http://i.imgur.com/Bitfitgif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
